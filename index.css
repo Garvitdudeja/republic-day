@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(0deg, #138808 33%, #ffffff 33%, #ffffff 66%, #FF9933 66% );
+  }
+.hero{
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.hero_image_1{
+  
+  width: 12rem;
+}
+.hero_image_2{
+  
+  left:4rem;
+  width: 12rem;
+}
+
+@keyframes example {
+  0%   {color:orange; }
+  50%  {color:rgb(251, 255, 121); }
+  100% {color:green}
+}
+
+/* The element to apply the animation to */
+.hero_text {
+  padding: 0rem 5rem;
+  
+  
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  animation-name: example;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+.audio{
+  display: none;
+}
